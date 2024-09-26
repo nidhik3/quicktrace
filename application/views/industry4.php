@@ -74,8 +74,8 @@ defined('BASEPATH') or exit('No direct script access allowed');
 
     /* List styling */
     .disc {
-        margin-top: 20px;
-        margin-bottom: 40px;
+        /* margin-top: 20px;
+        margin-bottom: 40px; */
         padding-left: 20px;
         list-style-type: disc;
         animation: fadeInUp 3s ease-in-out;
@@ -131,15 +131,32 @@ defined('BASEPATH') or exit('No direct script access allowed');
 
 
         <h5>Our Unique Value Proposition:</h5>
+        <div class="row d-flex">
+            <div class="col-md-8">
+                <ul class="disc">
+                    <li>Unmatched Affordability: Experience virtualization without breaking the bank. QwikVirt delivers
+                        exceptional performance at a fraction of the cost.</li>
+                    <li>Rapid Deployment: Get up and running in no time with our user-friendly interface and streamlined setup
+                        process.</li>
+                    <li>Scalability: Effortlessly adapt to changing workloads with our flexible and scalable platform.</li>
+                    <li>Robust Performance: Enjoy high performance and reliability without the hefty price tag.</li>
+                    <li>Consolidate Resources: Run multiple virtual machines on a single physical server, maximizing hardware
+                        utilization and reducing costs.</li>
+
+                </ul>
+            </div>
+            <div class="col-md-4">
+
+                <div class="row d-flex justify-content-center">
+                    <div class="col-md-11 text-center pt-4">
+                        <img src="assets/img/data-center.png" alt="" style="width:100%">
+                    </div>
+                </div>
+            </div>
+        </div>
+
         <ul class="disc">
-            <li>Unmatched Affordability: Experience virtualization without breaking the bank. QwikVirt delivers
-                exceptional performance at a fraction of the cost.</li>
-            <li>Rapid Deployment: Get up and running in no time with our user-friendly interface and streamlined setup
-                process.</li>
-            <li>Scalability: Effortlessly adapt to changing workloads with our flexible and scalable platform.</li>
-            <li>Robust Performance: Enjoy high performance and reliability without the hefty price tag.</li>
-            <li>Consolidate Resources: Run multiple virtual machines on a single physical server, maximizing hardware
-                utilization and reducing costs.</li>
+
             <li>Accelerate Deployment: Provision new virtual servers in minutes, not hours, boosting agility and
                 responsiveness.</li>
             <li>Enhance Flexibility: Scale resources up or down to meet fluctuating demands, optimizing your IT budget.
@@ -150,13 +167,8 @@ defined('BASEPATH') or exit('No direct script access allowed');
             </li>
 
         </ul>
-        <div class="row d-flex justify-content-center">
-            <div class="col-md-4 text-center">
-                <img src="assets/img/data-center.png" alt="" style="width:100%">
-            </div>
 
 
-        </div>
 
 
     </div>

@@ -11,10 +11,11 @@ defined('BASEPATH') or exit('No direct script access allowed');
         border-radius: 15px;
         box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
     }
-   .featured-two {
-      background: linear-gradient(120deg, #f0f4f8, #ffffff);
-    padding: 50px 0;
-}
+
+    .featured-two {
+        background: linear-gradient(120deg, #f0f4f8, #ffffff);
+        padding: 50px 0;
+    }
 
     /* Section title */
     .section-title {
@@ -188,18 +189,18 @@ defined('BASEPATH') or exit('No direct script access allowed');
         </ul>
 
         <section class="pb-5">
-			<div class="container">
-				<div class="row d-flex justify-content-center">
-					<div class="col-md-3 text-center">
-						<img src="assets/img/sdwan1.png" alt="" style="height:200px;">
-					</div>
+            <div class="container">
+                <div class="row d-flex justify-content-center">
                     <div class="col-md-3 text-center">
-						<img src="assets/img/sdwan2.png" alt="" style="height:200px;">
-					</div>
-                   
-				</div>
-			</div>
-		</section>
+                        <img src="assets/img/sdwan1.png" alt="" style="height:200px;">
+                    </div>
+                    <div class="col-md-3 text-center">
+                        <img src="assets/img/sdwan2.png" alt="" style="height:200px;">
+                    </div>
+
+                </div>
+            </div>
+        </section>
     </div>
 </section>
 
@@ -452,7 +453,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
                 </tr>
             </table>
 
-         
+
         </div>
     </div>
 
@@ -462,7 +463,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
 
     <style>
         table {
-            width: 100%;  
+            width: 100%;
             border-collapse: collapse;
         }
 
