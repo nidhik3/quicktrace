@@ -54,6 +54,17 @@ defined('BASEPATH') or exit('No direct script access allowed');
 		list-style-type: disc;
 		animation: fadeInUp 3s ease-in-out;
 	}
+	.img-ar li {
+		margin-top: 10px;
+		margin-bottom: 10px;
+		padding-left: 20px;
+		list-style-type:none;
+		animation: fadeInUp 3s ease-in-out;
+	}
+	.img-ar li img{
+		height: 35px;
+		padding-right:10px;
+	}
 
 	.disc li {
 		margin-bottom: 15px;
@@ -119,7 +130,9 @@ defined('BASEPATH') or exit('No direct script access allowed');
 		<h6 class="sub-section-title">Qwik Box-Software</h6>
 
 		<ul class="disc">
-			<li>It is a software-based solution supporting multiple applications.</li>
+			<div class="row d-flex">
+			<div class="col-md-6">
+				<li>It is a software-based solution supporting multiple applications.</li>
 			<li>Type 1 Hypervisor</li>
 			<li> Hardware Abstraction for underlying resources.</li>
 			<li>
@@ -131,6 +144,12 @@ defined('BASEPATH') or exit('No direct script access allowed');
 				<li>Start/Stop</li>
 				<li>Pause/Resume</li>
 			</ul>
+			</div>
+			<div class="col-md-6">
+				<img src="assets/image/education.png" alt="">
+			</div>
+			</div>
+			
 			<li>Management Interface : Provides a management interface for administrators
 				to configure, monitor, and manage application and host resources.</li>
 			<li class="mb-3">Web-based console and API for automation and integration with management
@@ -189,11 +208,10 @@ defined('BASEPATH') or exit('No direct script access allowed');
 				Qwik Box offers a comprehensive, on-premises & cloud based solution that overcomes these challenges
 			</li>
 		</ul>
-
-	
-		<!-- -------- -->
-		<h6 class="sub-section-title">Key Features </h6>
-
+	<!-- -------- -->
+	<h6 class="sub-section-title">Key Features </h6>
+<div class="row">
+	<div class="col-md-7">
 		<ul class="disc">
 			<li><b>Application-Driven Networking:</b> Prioritizes critical educational applications.
 			</li>
@@ -207,24 +225,59 @@ defined('BASEPATH') or exit('No direct script access allowed');
 			<li><b>Enhanced User Experience:</b> Provides a seamless learning environment.</li>
 			<li>Zero-touch provisioning in minutes, not days</li>
 			<li>Complete visibility from single pane of glass</li>
+	
+	
+		</ul>
+	</div>
+	<div class="col-md-4 d-flex justify-content-center align-items-start">
+		<img src="assets/image/edu2.png" alt="">
+	</div>
+</div>
+
+
+
+	
+		<!-- -------- -->
+		<h6 class="sub-section-title">Benefits</h6>
+
+		<ul class="disc">
+			<li><b>Centralized Management:</b> Streamline administration tasks.
+			</li>
+			<li><b>Enhanced Collaboration: </b>Facilitate real-time interactions between teachers and students.</li>
+			<li><b>Improved Learning Outcomes: </b> Create a conducive environment for effective learning.</li>
+			<li><b>Improved Performance: </b>Prioritize critical applications for faster response times.</li>
+			<li><b>Reduced Costs: </b> Eliminate multiple hardware's & cloud based system.</li>
+			<li><b>Enhanced Reliability: </b>Ensure consistent network performance, even in challenging environments.			</li>
+			<li><b>Simplified Management: </b>Centralized control and management of network resources.</li>
+		</ul>
+
+		<!-- -------- -->
+		<h6 class="sub-section-title"> Delivery Architecture </h6>
+		<div class="row pt-3  d-flex justify-content-center">
+			<div class="col-md-10">
+				<img src="assets/image/e10.png" alt="" >
+			</div>
+		</div>
+		
+
+
+
+		<!-- -------- -->
+		<h6 class="sub-section-title">Architecture </h6>
+
+		<ul class="img-ar">
+			<li><img src="assets/image/picture1.png" alt="">Content Server is installed in school data centre or hosted in any of the clouds namely private or public cloud</li>
+			<li><img src="assets/image/picture2.png" alt="">School datacentre and its associated/affiliated schools  are connected using QT SDWAN Gateway Solution.
+			</li>
+			<li><img src="assets/image/picture3.png" alt="">Content Server VNF is a 3rd party product provided by the vendor of the school
+			</li>
+			<li><img src="assets/image/picture4.png" alt="">Authorisation and Authentication of the Content Server Application is done in the central system 
+			</li>
 
 
 		</ul>
 
-
-		<section class="pb-5">
-			<div class="container">
-				<div class="row d-flex justify-content-center">
-					<div class="col-md-3 text-center">
-						<img src="assets/img/sdwan1.png" alt="" style="height:200px;">
-					</div>
-					<div class="col-md-3 text-center">
-						<img src="assets/img/sdwan2.png" alt="" style="height:200px;">
-					</div>
-
-				</div>
-			</div>
-		</section>
+	
 
 	</div>
 </section>
