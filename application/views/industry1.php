@@ -57,14 +57,15 @@ defined('BASEPATH') or exit('No direct script access allowed');
 	.img-ar li {
 		margin-top: 10px;
 		margin-bottom: 10px;
-		padding-left: 20px;
 		list-style-type:none;
 		animation: fadeInUp 3s ease-in-out;
 	}
 	.img-ar li img{
 		height: 35px;
 		padding-right:10px;
+		
 	}
+
 
 	.disc li {
 		margin-bottom: 15px;
@@ -265,7 +266,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
 		<!-- -------- -->
 		<h6 class="sub-section-title">Architecture </h6>
 
-		<ul class="img-ar">
+		<ul class="img-ar p-0">
 			<li><img src="assets/image/picture1.png" alt="">Content Server is installed in school data centre or hosted in any of the clouds namely private or public cloud</li>
 			<li><img src="assets/image/picture2.png" alt="">School datacentre and its associated/affiliated schools  are connected using QT SDWAN Gateway Solution.
 			</li>

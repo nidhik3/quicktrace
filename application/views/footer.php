@@ -41,7 +41,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
         <div class="col-lg-3 col-md-6">
           <div class="widget footer-widget">
             <h3 class="widget-title">Our Global Presence</h3> 
-            <p> Jaipur, India <br>UAE, Dubai</p>
+            <p> Jaipur, India <br>Dubai, UAE</p>
             <ul class="footer-social-link">
               <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
               <li><a href="#"><i class="fab fa-twitter"></i></a></li>

@@ -36,7 +36,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
 				<div class="contact-infos">
 					<div class="contact-info">
 						<h3 class="title">Our Global Presence</h3>
-						<p class="description"> Jaipur, India <br>UAE, Dubai</p>
+						<p class="description"> Jaipur, India <br>Dubai, UAE</p>
 					</div>
 				</div>
 				<div class="contact-info">
