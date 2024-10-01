@@ -16,7 +16,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
             <p class="description wow pixFadeUp" data-wow-delay="0.5s">
               Your Path to Smarter Networking.
             </p>
-            <a href="signup" class="btn-primary" data-wow-delay="0.6s">Get
+            <a href="Signup" class="btn-primary" data-wow-delay="0.6s">Get
               Started</a>
           </div>
         </div>

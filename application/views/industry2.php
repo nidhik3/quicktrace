@@ -127,7 +127,61 @@
 				<!-- <p>Qwiktrace partners with Incubators and provides Infrastructure services on monthly subscription model.</p> -->
 			</div>
 
-			<h5>Qwik Virt - Empowering Incubator, Empowering Innovation</h5>
+
+			<h6 class="sub-section-title">Problem Statement</h6>
+		<div class="row d-flex">
+			<div class="col-md-7">
+				<p>Organizations face high operational costs and inefficiency due to managing multiple vendors and
+					diverse
+					hardware/software components without a unified management platform.
+				</p>
+				<ul class="disc">
+					<li>Complexity in managing multiple vendors.</li>
+					<li>Diverse hardware and software components.</li>
+					<li>Lack of a unified management platform.</li>
+					<li>Inefficiency in overseeing all devices. </li>
+					<li>Increased operational costs.</li>
+					<li>Need for a streamlined management process.</li>
+					<li>Requirement for a comprehensive dashboard for efficient device management.
+					</li>
+			</div>
+
+			<div class="col-md-5">
+				<img src="assets/image/problem-statement.png" alt="">
+			</div>
+
+			</ul>
+		</div>
+		
+		<h6 class="sub-section-title">Solution- <span style="color: rgb(81, 81, 81);">Our Approach</span></h6>
+		<div class="row d-flex">
+			<div class="col-md-7">
+				<p>Introducing the All-in-One Qwik Box Solution</p>
+				<ul class="disc">
+					<li>With our All-in-One Qwik Box Solution, device management has never been easier. Open the box, and step into a simpler, more efficient world.
+					</li>
+					<li><b>Single Management Console:</b> Manage all devices from one place.
+					</li>
+					<li><b>Unified Hardware:</b> Use a single piece of hardware for device management.
+					</li>
+					<li><b>Simplified Dashboard:</b> Easily monitor and control devices through a streamlined dashboard.
+					</li>
+					<li><b>Cloud & On-Premises Compatibility:</b> Seamlessly manage devices in both environments.
+					</li>
+					<li><b>Increased Efficiency:</b> Reduce complexity & cost & improving device management efficiency.
+					</li>
+			</div>
+
+			<div class="col-md-5">
+				<img src="assets/image/solution.png" alt="">
+			</div>
+
+			</ul>
+		</div>
+		
+
+
+			<h5 class="sub-section-title">Qwik Virt - Empowering Incubator, Empowering Innovation</h5>
 			<p>Qwik Trace's partnership with incubators offers a cost-effective, scalable, and managed infrastructure solution that empowers incubators to better support their startups and foster innovation.
 			</p>
 
